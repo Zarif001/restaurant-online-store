@@ -1,0 +1,71 @@
+.order {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+}
+
+.orderContent {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  height: 70vh;
+  animation: slideDown 0.4s ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.orderContent h2 {
+  color: rgb(32, 34, 33);
+  font-family: "VR";
+  font-size: 65px;
+  line-height: 70px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.orderContent p {
+  color: rgb(32, 34, 33);
+  font-family: "CR";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  margin: 50px 0;
+}
+
+.orderContent button {
+  color: rgb(255, 255, 255);
+  font-family: "CB";
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 25px;
+  width: 300px;
+  border: none;
+  height: 100px;
+  background: rgb(239, 102, 2);
+}
+
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

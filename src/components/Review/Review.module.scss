@@ -1,0 +1,45 @@
+.review {
+  margin-top: 150px;
+
+  .caption {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    h2 {
+      color: rgb(255, 255, 255);
+      font-family: "VR";
+      font-size: 65px;
+      line-height: 70px;
+      letter-spacing: 0%;
+      text-align: left;
+      text-transform: uppercase;
+      max-width: 817px;
+      width: 100%;
+    }
+    .rating {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-sizing: border-box;
+      border: 2px solid rgb(220, 221, 223);
+      border-radius: 15px;
+      padding: 12px;
+      width: 297px;
+      background: rgb(255, 255, 255);
+      img {
+        display: block;
+      }
+      p {
+        color: rgb(128, 130, 129);
+        font-family: "CR";
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-decoration-line: underline;
+        margin-top:10px;
+      }
+    }
+  }
+}

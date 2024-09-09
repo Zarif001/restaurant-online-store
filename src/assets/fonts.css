@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'CB';
+    src: url('./fonts/CenturyGothicPaneuropeanBold.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'CR';
+    src: url('./fonts/CenturyGothicPaneuropeanRegular.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'CI';
+    src: url('./fonts/CenturyGothicPaneuropeanItalic.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'VR';
+    src: url('./fonts/Vetrino.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'MR';
+    src: url('./fonts/Montserrat-Regular.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'MB';
+    src: url('./fonts/Montserrat-Bold.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'MSB';
+    src: url('./fonts/Montserrat-SemiBold.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'IB';
+    src: url('./fonts/Inter-Bold.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'IR';
+    src: url('./fonts/Inter-Regular.ttf') format('truetype');
+  }
+
+

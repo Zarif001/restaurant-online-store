@@ -1,0 +1,22 @@
+.aboutCarousel {
+  margin-top: 150px;
+  h3 {
+    color: rgb(255, 255, 255);
+    font-family: "VR";
+    font-size: 65px;
+    line-height: 70px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+  }
+  .slider-container {
+    img {
+      width: 100%;
+      height: 535px;
+      display: block;
+    }
+  }
+}
+.slick-arrow{
+  display: none!important;
+}
+
