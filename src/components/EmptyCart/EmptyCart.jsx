@@ -10,7 +10,7 @@ function EmptyCart() {
           <span className={styles.dot}>.</span>
           <span className={styles.dot}>.</span>
         </h2>
-        <img src="/images/bin.png" alt="bin" />
+        <img src="/images/bin.png" alt="bin" loading="lazy"/>
       </div>
     </Container>
   );

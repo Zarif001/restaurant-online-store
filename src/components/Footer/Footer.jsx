@@ -11,22 +11,23 @@ function Footer() {
         <Container>
         <footer className={styles.footer}>
           <>
-            <Link to='/'><img className={styles.img} src={logo} alt="logo-image" /></Link>
+            <Link to='/'><img className={styles.img} src={logo} alt="logo-image" loading="lazy"/></Link>
           </>
           <ul className={styles.list}>
             <Link to='/'><li>Главная</li></Link>
             <Link to='/menu'><li>Меню</li></Link>
-            <li>О ресторане</li>
-            <li>Галерея</li>
-            <li>Контакты</li>
+            <Link to='/about'><li>О ресторане</li></Link>
+            <Link to='/gallery'><li>Галерея</li></Link>
+            <Link to='/contact'><li>Контакты</li></Link>
+           
           </ul>
           <div style={{display: 'flex', flexDirection: 'column', }}>
           <div className={styles.call}>
-              <img src={call} alt="call-svg" />
+              <img src={call} alt="call-svg" loading="lazy"/>
               <span>(77) 777-77-77</span>
             </div>
             <div className={styles.call}>
-              <img src={location} alt="call-svg" />
+              <img src={location} alt="call-svg" loading="lazy"/>
               <span>Новосибирск, улица</span>
             </div>
           </div>

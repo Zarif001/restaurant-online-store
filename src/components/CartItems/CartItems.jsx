@@ -30,6 +30,7 @@ function CartItems() {
             className={styles.img}
               src={item.image}
               alt={item.id + "image"}
+              loading="lazy"
             />
             <div>
               <h4>{item.name}</h4>

@@ -22,7 +22,7 @@ function SuccessOrder() {
             <button onClick={handleReload}>На главную</button>
             </Link>
             </div>
-            <img src="/images/thanksImg.png" alt="thanksImg" />
+            <img src="/images/thanksImg.png" alt="thanksImg" loading="lazy" />
            </div>
         </div> 
        

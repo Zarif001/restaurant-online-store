@@ -39,28 +39,28 @@ export default function About() {
             </p>
             <div className={styles.box}>
               <div className={styles.starBoxes}>
-                <img src={star} alt="star-svg" />
+                <img src={star} alt="star-svg" loading="lazy"/>
                 <p>Lorem ipsum dolor sit amet, consectetur </p>
               </div>
               <div className={styles.starBoxes}>
-                <img src={star} alt="star-svg" />
+                <img src={star} alt="star-svg" loading="lazy"/>
                 <p>Lorem ipsum dolor sit amet, consectetur </p>
               </div>
               <div className={styles.starBoxes}>
-                <img src={star} alt="star-svg" />
+                <img src={star} alt="star-svg" loading="lazy"/>
                 <p>Lorem ipsum dolor sit amet, consectetur </p>
               </div>
               <div className={styles.starBoxes}>
-                <img src={star} alt="star-svg" />
+                <img src={star} alt="star-svg" loading="lazy"/>
                 <p>Lorem ipsum dolor sit amet, consectetur </p>
               </div>
             </div>
           </div>
           <div className={styles.contentImage}>
-           <img className={styles.img} src={about1} alt="first about picture" />
-           <img className={styles.img} src={about2} alt="second about picture" />
-           <img className={styles.img} src={about3} alt="third about picture" />
-          <img className={styles.img} src={about4} alt="fourth about picture" />
+           <img className={styles.img} src={about1} alt="first about picture" loading="lazy"/>
+           <img className={styles.img} src={about2} alt="second about picture" loading="lazy"/>
+           <img className={styles.img} src={about3} alt="third about picture" loading="lazy"/>
+          <img className={styles.img} src={about4} alt="fourth about picture" loading="lazy"/>
           </div>
         </div>
       </Container>
