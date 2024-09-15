@@ -19,8 +19,8 @@ export const fetchDates = () => {
           return new Promise((resolve, reject) => {
             const img = new Image();
             img.src = url;
-            img.onload = resolve;  // Успешная загрузка
-            img.onerror = reject;  // Ошибка при загрузке
+            img.onload = resolve; 
+            img.onerror = reject;  
           });
         })
       );

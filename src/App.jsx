@@ -1,7 +1,7 @@
 // App.js
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Routes, Route } from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Main from "./pages/MainPage/MainPage";
 import MenuPage from "./pages/MenuPage/MenuPage";
 import CartPage from "./pages/CartPage/CartPage";
@@ -10,6 +10,15 @@ import { ThreeCircles } from "react-loader-spinner";
 import AboutPage from "./pages/AboutPage/AboutPage";
 import GalleryPage from "./pages/GalleryPage/GalleryPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
+
+const router = createBrowserRouter([
+  {path: '/', element: <Main/>},
+  {path: '/menu', element: <MenuPage/>},
+  {path: '/cart', element: <CartPage/>},
+  {path: '/about', element: <AboutPage/>},
+  {path: '/gallery', element: <GalleryPage/>},
+  {path: '/contact', element: <ContactPage/>}
+])
 function App() {
   const dispatch = useDispatch();
   const cartItems = useSelector((state) => state.products.cartItems);
@@ -39,16 +48,7 @@ function App() {
       </div>
     );
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/menu" element={<MenuPage />} />
-        <Route path="/cart" element={<CartPage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/gallery" element={< GalleryPage/>} />
-        <Route path="/contact" element={< ContactPage/>} />
-      </Routes>
-    </>
+    <RouterProvider router={router}/>
   );
 }
 
