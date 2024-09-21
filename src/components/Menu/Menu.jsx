@@ -32,7 +32,7 @@ function Menu() {
 
             return (
               <div className={styles.item} key={item.id}>
-                <img src={item.image} alt="product image" loading="lazy"/>
+                <img src={item.image} alt="product image" />
                 <h2>{item.name}</h2>
                 <p>{item.describtion}</p>
                 <div className={styles.info}>

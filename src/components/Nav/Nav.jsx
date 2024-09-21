@@ -14,9 +14,9 @@ export default function Nav() {
     <Container>
       <nav className={styles.nav}>
         <>
-          <Link to='/'><img className={styles.img} src={logo} alt="logo-image" loading="lazy"/></Link>
+          <Link to='/'><img className={styles.img} src={logo} alt="logo-image" /></Link>
           <div className={styles.call}>
-            <img src={call} alt="call-svg" loading="lazy"/>
+            <img src={call} alt="call-svg" />
             <span>(77) 777-77-77</span>
           </div>
         </>
@@ -30,7 +30,7 @@ export default function Nav() {
        
        <Link to='/cart'>
        <div className={styles.cart} >
-          <img src={cart} alt="cart-svg" loading="lazy"/>
+          <img src={cart} alt="cart-svg" />
           <span>{totalQuantity}</span>
         </div>
        </Link>

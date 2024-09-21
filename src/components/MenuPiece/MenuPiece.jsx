@@ -26,7 +26,7 @@ function MenuPiece() {
               const quantityId = getQuantityInCart(item.id)
             return (
               <div className={styles.item} key={item.id}>
-              <img src={item.image} alt="product image" loading="lazy"/>
+              <img src={item.image} alt="product image" />
               <h2>{item.name}</h2>
               <div className={styles.info}>
                 <span>{item.price}$</span>
@@ -45,7 +45,7 @@ function MenuPiece() {
             <p>Показать еще</p>
           </a>
           <span>
-            <img src={arrow} alt="arrow-svg" loading="lazy"/>
+            <img src={arrow} alt="arrow-svg" />
           </span>
         </div>
       </Container>

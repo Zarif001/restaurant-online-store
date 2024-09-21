@@ -18,7 +18,7 @@ function CarouselRev() {
       {DATA.map(item => (
         <div className='slides-items' key={item.id}>
             <div className='styles-picture'>
-            <img src={item.image} alt="first avatar" loading="lazy"/>
+            <img src={item.image} alt="first avatar" />
             </div>
             <h3>{item.name}</h3>
             <p>{item.text}</p>

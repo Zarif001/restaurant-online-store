@@ -12,7 +12,7 @@ function Content() {
         <button>ЗАБРОНИРОВАТЬ СТОЛ</button>
         </div>
         <div>
-            <img src={contentImg} alt="contentImage" loading="lazy"/>
+            <img src={contentImg} alt="contentImage" />
         </div>
 
        </div>

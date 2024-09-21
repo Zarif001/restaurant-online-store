@@ -22,16 +22,16 @@ function CarouselAbout() {
       <div className="slider-container">
         <Slider {...settings}>
           <div>
-            <img src="./images/aboutImg1.png" alt="carousel-images" loading="lazy"/>
+            <img src="./images/aboutImg1.png" alt="carousel-images"/>
           </div>
           <div>
-            <img src="./images/aboutImg2.png" alt="carousel-images" loading="lazy"/>
+            <img src="./images/aboutImg2.png" alt="carousel-images" />
           </div>
           <div>
-            <img src="./images/aboutImg3.png" alt="carousel-images" loading="lazy"/>
+            <img src="./images/aboutImg3.png" alt="carousel-images" />
           </div>
           <div>
-            <img src="./images/aboutImg4.png" alt="carousel-images" loading="lazy"/>
+            <img src="./images/aboutImg4.png" alt="carousel-images" />
           </div>
         </Slider>
       </div>

@@ -14,18 +14,18 @@ function Mail() {
               feugiat est a elit tristique efficitur
             </p>
             <div className={styles.box}>
-              <img src="/images/call.svg" alt="call" loading="lazy"/>
+              <img src="/images/call.svg" alt="call" />
               <span>+7 (863) 283-27-37 <br /> +7 (960) 470-88-82</span>
             </div>
             <div className={styles.box}>
-              <img src="/images/location.svg" alt="call"loading="lazy" />
+              <img src="/images/location.svg" alt="call" />
               <span>
                 г. Ростов-на-Дону, ул. 8-я Линия, 1/37 <br />  г. Ростов-на-Дону, пр.
                 Коммунистический, 30
               </span>
             </div>
             <div className={styles.box}>
-              <img src="/images/time.svg" alt="call" loading="lazy"/>
+              <img src="/images/time.svg" alt="call"/>
               <span>Ежедневно | 12:00 — 00:00</span>
             </div>
           </div>

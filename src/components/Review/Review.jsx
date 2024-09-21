@@ -11,7 +11,7 @@ function Review() {
             <div className={styles.caption}>
                 <h2>отзывы наших дорогих гостей</h2>
                 <div className={styles.rating}>
-                <img src={yandex} alt="yandex-rating-picture" loading="lazy"/>
+                <img src={yandex} alt="yandex-rating-picture" />
                 <p>Смотреть все отзывы</p>
                 </div>
             </div>

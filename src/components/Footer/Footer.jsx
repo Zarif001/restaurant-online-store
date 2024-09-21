@@ -11,7 +11,7 @@ function Footer() {
         <Container>
         <footer className={styles.footer}>
           <>
-            <Link to='/'><img className={styles.img} src={logo} alt="logo-image" loading="lazy"/></Link>
+            <Link to='/'><img className={styles.img} src={logo} alt="logo-image"/></Link>
           </>
           <ul className={styles.list}>
             <Link to='/'><li>Главная</li></Link>
@@ -23,11 +23,11 @@ function Footer() {
           </ul>
           <div style={{display: 'flex', flexDirection: 'column', }}>
           <div className={styles.call}>
-              <img src={call} alt="call-svg" loading="lazy"/>
+              <img src={call} alt="call-svg" />
               <span>(77) 777-77-77</span>
             </div>
             <div className={styles.call}>
-              <img src={location} alt="call-svg" loading="lazy"/>
+              <img src={location} alt="call-svg"/>
               <span>Новосибирск, улица</span>
             </div>
           </div>

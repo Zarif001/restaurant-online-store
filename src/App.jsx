@@ -19,7 +19,7 @@ const router = createBrowserRouter([
   {
     path: '/menu',
     element: (
-      <Suspense fallback={<p>...</p>}>
+      <Suspense fallback={<p>Loading Menu...</p>}>
         <MenuPage />
       </Suspense>
     ),
@@ -27,7 +27,7 @@ const router = createBrowserRouter([
   {
     path: '/gallery',
     element: (
-      <Suspense fallback={<p>...</p>}>
+      <Suspense fallback={<p>Loading Gallery...</p>}>
         <GalleryPage />
       </Suspense>
     ),
